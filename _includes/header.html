@@ -1,0 +1,20 @@
+<nav class="darken-1" role="navigation">
+    <div class="nav-wrapper container">
+        <a class="brand-logo" href="{{ site.baseurl }}/">{{ site.title }}</a>
+        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+        <ul class="right hide-on-med-and-down">
+            {% for page in site.pages %}
+            {% if page.title %}
+            <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+            {% endif %}
+            {% endfor %}
+        </ul>
+        <ul class="side-nav" id="mobile-demo">
+            {% for page in site.pages %}
+            {% if page.title %}
+            <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+            {% endif %}
+            {% endfor %}
+        </ul>
+    </div>
+</nav>
