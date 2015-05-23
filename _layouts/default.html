@@ -3,16 +3,19 @@
 
 {% include head.html %}
 
-  <body>
+<body>
 
-    {% include header.html %}
+{% include header.html %}
 
-      <div class="container">
-        {{ content }}
-      </div>
+<main>
+{{ content }}
+</main>
+<div class="fixed-action-btn">
+<a class="btn-floating btn-large waves-effect waves-light orange"><i class="mdi-communication-email"></i></a>
+</div>
 
-    {% include footer.html %}
+{% include footer.html %}
 
-  </body>
+</body>
 
 </html>
