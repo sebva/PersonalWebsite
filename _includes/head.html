@@ -37,5 +37,8 @@
 
     <script type="text/javascript" src="{{ "/js/jquery-2.1.4.min.js" | prepend: site.baseurl }}"></script>
     <script type="text/javascript" src="{{ "/js/materialize.min.js" | prepend: site.baseurl }}"></script>
+    {% if page.title == 'Contact' %}
+        <script type="text/javascript" src="{{ "/js/jquery.validate.min.js" | prepend: site.baseurl }}"></script>
+    {% endif %}
     <script type="text/javascript" src="{{ "/js/init.js" | prepend: site.baseurl }}"></script>
 </head>
