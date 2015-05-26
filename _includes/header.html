@@ -34,7 +34,7 @@
             {% assign pages = site.pages | sort: "weight" %}
             {% for p in pages %}
                 {% if p.menu == "main" %}
-                    <li{% if p.url == page.url %} class="active"{% endif %}>
+                    <li class="waves-effect waves-light{% if p.url == page.url %} active{% endif %}">
                         <a href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</a>
                     </li>
                 {% endif %}

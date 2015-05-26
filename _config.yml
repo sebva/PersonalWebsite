@@ -7,9 +7,21 @@ twitter_username: sebyx31
 github_username:  sebyx31
 timezone: Europe/Zurich
 
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
+
+defaults:
+  - scope:
+      collection: projects
+    values:
+      layout: page
+      image: empty.png
+
 # Build settings
 markdown: kramdown
 kramdown:
-    input: GFM
+  input: GFM
 sass:
-    style: :compressed
+  style: :compressed

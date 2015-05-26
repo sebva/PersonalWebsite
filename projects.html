@@ -1,0 +1,49 @@
+---
+layout: default
+title: Projects
+menu: main
+weight: 1
+---
+
+<div class="section">
+    <div class="container">
+        <h1>Projects</h1>
+
+        <p>Here is a list of some projects I realized over the years.</p>
+    </div>
+
+    <div class="row">
+        {% assign projects = site.projects | sort: "order" %}
+        {% for project in projects reversed %}
+            <div class="col s12 l6">
+                <div class="card z-depth-1-half blue" style="margin-left: 10px; margin-right: 10px">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="project-images/{{ project.image }}">
+                    </div>
+                    <div class="card-content white-text">
+                        <div class="row">
+                            <div class="card-title col s8"><strong>{{ project.title }}</strong></div>
+                            <div class="right-align col s4">{{ project.language }}
+                                {% for os in project.os %}<i class="fa fa-fw fa-{{ os.icon }}"></i>{% endfor %}<br>
+                                {{ project.context }}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title black-text waves-effect waves-teal">{{ project.title }}&nbsp;
+                            <i class="mdi-navigation-close right"></i>
+                        </span>
+                        {{ project.content }}
+                    </div>
+                    <div class="card-action blue darken-1">
+                        <a href="#!" class="activator"><i class="fa fa-expand"></i> Show details</a>
+                        {% if project.github != null %}
+                            <a href="{{ project.github }}"><i class="fa fa-github-alt"></i> See on GitHub</a>
+                        {% endif %}
+                        <span class="white-text right">{{ project.date }}</span>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</div>
