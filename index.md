@@ -6,6 +6,10 @@ menu: main
 weight: 0
 ---
 
-### <i class="fa fa-wrench"></i> Work in progress
+### Welcome to the website of Sébastien Vaucher!
 
-This website is currently in construction. Please come back again in a few weeks to see the finished result <i class="fa fa-smile-o"></i>.
+Dear visitor, welcome! If you want to know more about me, you may start with any of my web service accounts linked in the header under my name. You can also see a list of [projects](/projects.html) I realized since 2010. You can click on any of them and access a summary.
+
+If there is something that you cannot find here, please contact me using the [contact form](/contact.html) of this site.
+
+Happy browsing!
