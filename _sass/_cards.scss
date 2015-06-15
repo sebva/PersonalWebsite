@@ -121,12 +121,12 @@
     padding: $card-padding;
 
     a {
-      color: color("orange", "accent-2");
+      color: color("lime", "accent-2");
       margin-right: $card-padding;
       @include transition(color .3s ease);
       text-transform: uppercase;
 
-      &:hover { color: lighten(color("orange", "accent-2"), 20%); }
+      &:hover { color: lighten(color("lime", "accent-2"), 20%); }
     }
   }
 
