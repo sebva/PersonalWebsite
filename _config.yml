@@ -9,15 +9,16 @@ timezone: Europe/Zurich
 
 collections:
   projects:
-    output: true
-    permalink: /projects/:path/
+    output: false
 
 defaults:
-  - scope:
-      collection: projects
+  - 
+    scope:
+      path: ""
+      type: "projects"
     values:
-      layout: page
-      image: empty.png
+      layout: "page"
+      image: "empty.png"
 
 # Build settings
 markdown: kramdown
