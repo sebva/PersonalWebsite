@@ -1,6 +1,6 @@
 <noscript><p><img src="//stats.vaucher.org/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
 
-<nav class="darken-1 hide-on-large-only" role="navigation">
+<nav class="darken-1 hide-on-large-only" id="nav-small" role="navigation">
     <div class="nav-wrapper container">
         <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
         <div class="side-nav" id="mobile-demo">
@@ -30,7 +30,7 @@
         </div>
     </div>
 </div>
-<nav class="darken-1 hide-on-med-and-down z-depth-1" role="navigation">
+<nav class="darken-1 hide-on-med-and-down z-depth-1" id="nav-large" role="navigation">
     <div class="nav-wrapper container">
         <ul class="hide-on-med-and-down">
             {% assign pages = site.pages | sort: "weight" %}

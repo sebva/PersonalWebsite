@@ -10,6 +10,8 @@ var recapOk = function() {
 };
 $(document).ready(function(){
     $('.parallax').parallax();
+    $('#nav-large').pushpin({ top: 350 });
+    $('#nav-small').pushpin({ top: 0 });
     var contact = $('#contact-form');
     if(contact.length) {
         contact.validate({
@@ -37,3 +39,4 @@ $(document).ready(function(){
         });
     }
 });
+
