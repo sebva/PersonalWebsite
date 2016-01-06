@@ -9,7 +9,7 @@ weight: 40
     <div class="row">
         <h2>Contact form</h2>
         <p>Drop me an e-mail via the form below and I'll get back to you as soon as possible.</p>
-        <form class="col s12" id="contact-form" method="post" action="https://seb-contact.herokuapp.com/send">
+        <form class="col s12" id="contact-form" method="post" action="{{ "/send" | prepend: site.baseurl }}">
             <div class="row">
                 <div class="input-field col s12 l6">
                     <i class="mdi-social-person prefix"></i>
