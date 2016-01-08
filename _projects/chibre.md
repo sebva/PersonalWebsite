@@ -16,4 +16,4 @@ Chibre is a traditional swiss card game played with 4 players around a table. C#
 
 A WiFi connection is used to transmit instructions from/to the server (tablet)/clients (phones). The game gets simplified as only valid actions can be performed by players. Moreover, scores are automatically computed.
 
-The project was developed jointly with [Diego Antognini](https://ch.linkedin.com/in/diegoantognini) and [Alexandre Perez](http://www.perezapp.ch).
+The project was developed jointly with [Diego Antognini](https://ch.linkedin.com/in/diegoantognini) and [Alexandre Perez](https://perezapp.ch).

@@ -15,4 +15,4 @@ Battle for Atlantis is a two-player game played on two computers. It is a deriva
 
 The game was developed in Java. Players computers communicate via TCP/IP using a custom protocol based on JSON. 
 
-The project was developed in collaboration with [Jason Racine](http://www.jason-racine.com/) and [Johan Chavaillaz](http://chavaillaz.com/website/).
+The project was developed in collaboration with [Jason Racine](http://www.jason-racine.com/) and [Johan Chavaillaz](https://chavaillaz.com/website/).

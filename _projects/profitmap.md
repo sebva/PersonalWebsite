@@ -22,4 +22,4 @@ The application offers some unique features:
 
 [![Android App on Google Play](https://developer.android.com/images/brand/en_app_rgb_wo_60.png)](https://play.google.com/store/apps/details?id=ch.hearc.profitmap)
 
-ProFitMap was developed jointly with [Danick Fort](http://danickfort.me/).
+ProFitMap was developed jointly with [Danick Fort](https://www.linkedin.com/in/danickfort).

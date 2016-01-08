@@ -16,4 +16,4 @@ With S4K, we added virtual reality by enabling control of the game with Kinect a
 
 Further improvements were made in the menus (now controllable with Kinect and nicer) and in the gameplay.
 
-The project was realized during the period between Academic years 2012-2013 and 2013-2014 with [Alexandre Perez](http://www.perezapp.ch) and [Diego Antognini](https://ch.linkedin.com/in/diegoantognini).
+The project was realized during the period between Academic years 2012-2013 and 2013-2014 with [Alexandre Perez](https://perezapp.ch) and [Diego Antognini](https://ch.linkedin.com/in/diegoantognini).
