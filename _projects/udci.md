@@ -4,7 +4,7 @@ language: C#
 image: spacex.png
 os:
   - icon: tablet
-  - icon: windows
+  - icon: usb
 context: R&amp;D Workshop project
 date: Jun 2015
 order: 2015-06-12
