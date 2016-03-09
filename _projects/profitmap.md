@@ -20,6 +20,6 @@ The application offers some unique features:
 * **Android beam sharing**: Enables easy sharing of runs by approaching phones (NFC communication).
 * **Take pictures**: Picture can be taken during a run and then used as a thumbnail of it.
 
-[![Android App on Google Play](https://developer.android.com/images/brand/en_app_rgb_wo_60.png)](https://play.google.com/store/apps/details?id=ch.hearc.profitmap)
+[![Android App on Google Play](/images/gplay-en.png)](https://play.google.com/store/apps/details?id=ch.hearc.profitmap)
 
 ProFitMap was developed jointly with [Danick Fort](https://www.linkedin.com/in/danickfort).
