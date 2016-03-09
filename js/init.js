@@ -9,7 +9,6 @@ var recapOk = function() {
     $('#submit').removeAttr('disabled');
 };
 $(document).ready(function(){
-    $('.parallax').parallax();
     $('#nav-large').pushpin({ top: 350 });
     $('#nav-small').pushpin({ top: 0 });
     var contact = $('#contact-form');
@@ -39,4 +38,10 @@ $(document).ready(function(){
         });
     }
 });
+$(window).on("load", function() {
+    $('#projects-grid').masonry({
+        columnWidth: '.project-item',
+        itemSelector: '.project-item',
+    });
+})
 

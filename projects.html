@@ -16,9 +16,10 @@ weight: 1
 
     <div class="row">
         <div class="col s12 m10 offset-m1">
+            <div class="row" id="projects-grid">
             {% assign projects = site.projects | sort: "order" %}
             {% for project in projects reversed %}
-                <div class="col s12 l6">
+                <div class="col s12 l6 project-item">
                     <div class="card z-depth-1-half blue" style="margin-left: 10px; margin-right: 10px">
                         <div class="card-image waves-effect waves-block waves-light">
                             <img class="activator" src="project-images/{{ project.image }}">
@@ -48,6 +49,7 @@ weight: 1
                     </div>
                 </div>
             {% endfor %}
+            </div>
         </div>
     </div>
 </div>
