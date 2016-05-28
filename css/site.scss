@@ -1,11 +1,20 @@
 ---
 ---
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
 
 .title-text {
   padding-top: 100px;
   margin-top: 0;
   font-weight: 600;
-  text-shadow: 1px 3px 0 rgba(0,0,0,0.6);
+  text-shadow: 1px 3px 0 rgba(0, 0, 0, 0.6);
 }
 
 .title-container {
