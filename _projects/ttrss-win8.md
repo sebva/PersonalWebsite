@@ -6,7 +6,7 @@ os:
   - icon: windows
 context: C# project
 github: https://github.com/sebyx31/tt-rss-win8
-image: ttrss.png
+image: ttrss.webp
 date: Jan 2014
 order: 2014-01-26
 ---

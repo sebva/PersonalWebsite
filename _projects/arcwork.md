@@ -5,7 +5,7 @@ os:
   - icon: diamond
   - icon: database
 context: Web applications 2 project &#35;2
-image: arcwork.png
+image: arcwork.webp
 github: https://github.com/sebyx31/ArcWork
 date: Apr 2014
 order: 2014-04-24

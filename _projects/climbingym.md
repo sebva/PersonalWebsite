@@ -5,7 +5,7 @@ os:
   - icon: mobile
   - icon: android
 context: Contracted work
-image: climbingym.jpg
+image: climbingym.webp
 date: June 2016
 order: 2016-06-30
 ---

@@ -6,7 +6,7 @@ os:
   - icon: wifi
 context: Semester project
 github: https://github.com/sebyx31/Battle-for-Atlantis
-image: bfa.png
+image: bfa.webp
 date: Jun 2013
 order: 2013-06-12
 ---

@@ -4,7 +4,7 @@ language: Python
 os:
   - icon: cloud
 context: E-Government frameworks
-image: erepair.jpg
+image: erepair.webp
 github: https://github.com/sebyx31/AdminPanel
 date: May 2015
 order: 2015-05-22

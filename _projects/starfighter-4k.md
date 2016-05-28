@@ -1,7 +1,7 @@
 ---
 title: Starfighter 4K
 language: C++
-image: s4k.jpg
+image: s4k.webp
 github: https://github.com/sebyx31/Starfighter4K
 os:
   - icon: windows

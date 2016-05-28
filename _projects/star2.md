@@ -4,7 +4,7 @@ language: Java
 os:
   - icon: desktop
 context: Freshman's year project
-image: star2.png
+image: star2.webp
 github: https://github.com/projetp1/Frontend/
 date: Sep 2012
 order: 2012-09-05

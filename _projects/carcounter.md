@@ -4,7 +4,7 @@ language: CUDA
 os:
   - icon: linux
 context: Image processing
-image: carcounter.jpg
+image: carcounter.webp
 date: May 2014
 order: 2014-05-04
 ---
