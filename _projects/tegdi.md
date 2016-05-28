@@ -2,7 +2,7 @@
 title: Timbreuse et gestionnaire d'intervention
 language: PHP
 os:
-  - icon: desktop
+  - icon: desktop-mac
   - icon: database
 context: Web applications 1 project
 image: tegdi.webp

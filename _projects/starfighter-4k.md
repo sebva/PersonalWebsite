@@ -4,7 +4,8 @@ language: C++
 image: s4k.webp
 github: https://github.com/sebyx31/Starfighter4K
 os:
-  - icon: windows
+  - icon: gamepad-variant
+  - icon: projector
 context: Inter-semester project
 date: Sep 2013
 order: 2013-09-01

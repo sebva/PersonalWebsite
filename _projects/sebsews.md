@@ -2,7 +2,7 @@
 title: Séb's EWS
 language: PHP
 os:
-  - icon: database
+  - icon: language-php
 context: Personal project
 github: https://github.com/sebyx31/sebsews
 image: sebsews.png

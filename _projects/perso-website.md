@@ -2,7 +2,7 @@
 title: Personal website
 language: Jekyll
 os:
-  - icon: github
+  - icon: language-html5
 context: Personal project
 image: perso-website.png
 github: https://github.com/sebyx31/sebyx31.github.io

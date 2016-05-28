@@ -28,7 +28,7 @@ weight: 1
                             <div class="row">
                                 <div class="card-title col s8"><strong>{{ project.title }}</strong></div>
                                 <div class="right-align col s4">{{ project.language }}
-                                    {% for os in project.os %}<i class="fa fa-fw fa-{{ os.icon }}"></i>{% endfor %}<br>
+                                    {% for os in project.os %}<i class="mdi mdi-18px mdi-{{ os.icon }}"></i>{% endfor %}<br>
                                     {{ project.context }}
                                 </div>
                             </div>
@@ -40,9 +40,9 @@ weight: 1
                             {{ project.content | markdownify }}
                         </div>
                         <div class="card-action blue darken-1">
-                            <a href="#!" class="activator"><i class="fa fa-expand"></i> Show details</a>
+                            <a href="#!" class="activator"><i class="mdi mdi-arrow-expand-all"></i> Show details</a>
                             {% if project.github != null %}
-                                <a href="{{ project.github }}"><i class="fa fa-github-alt"></i> See on GitHub</a>
+                                <a href="{{ project.github }}"><i class="mdi mdi-github-box"></i> See on GitHub</a>
                             {% endif %}
                             <span class="white-text right">{{ project.date | date: "%B %Y" }}</span>
                         </div>

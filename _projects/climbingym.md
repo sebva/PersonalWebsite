@@ -2,7 +2,6 @@
 title: ClimbinGym for Android
 language: Android/Kotlin
 os:
-  - icon: mobile
   - icon: android
 context: Contracted work
 image: climbingym.webp

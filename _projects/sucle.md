@@ -2,7 +2,6 @@
 title: Sucle
 language: Android/Java
 os:
-  - icon: mobile
   - icon: android
 context: Android project
 github: https://github.com/sebyx31/sucle

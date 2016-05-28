@@ -2,7 +2,7 @@
 title: Outil d'aide au déminage
 language: Android/Java
 os:
-  - icon: mobile
+  - icon: tablet-android
   - icon: android
 context: Bachelor project
 image: digger.webp

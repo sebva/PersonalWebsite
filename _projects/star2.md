@@ -2,7 +2,9 @@
 title: Star²
 language: Java
 os:
-  - icon: desktop
+  - icon: desktop-mac
+  - icon: android
+  - icon: raspberrypi
 context: Freshman's year project
 image: star2.webp
 github: https://github.com/projetp1/Frontend/

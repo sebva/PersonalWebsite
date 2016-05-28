@@ -2,7 +2,7 @@
 title: Communication platform for CPAY
 language: PHP
 os:
-  - icon: desktop
+  - icon: web
   - icon: database
 context: Web applications 2 project &#35;1
 date: Dec 2013

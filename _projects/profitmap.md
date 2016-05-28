@@ -3,7 +3,6 @@ title: ProFitMap
 language: Android/Java
 os:
   - icon: dropbox
-  - icon: mobile
   - icon: android
 context: Semester project
 github: https://github.com/sebyx31/ProFitMap

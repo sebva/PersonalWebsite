@@ -2,7 +2,7 @@
 title: E-Repair admin panel
 language: Python
 os:
-  - icon: cloud
+  - icon: language-python
 context: E-Government frameworks
 image: erepair.webp
 github: https://github.com/sebyx31/AdminPanel

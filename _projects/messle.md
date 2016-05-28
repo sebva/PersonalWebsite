@@ -2,8 +2,7 @@
 title: Messle
 language: Objective-C
 os:
-  - icon: mobile
-  - icon: apple
+  - icon: apple-ios
 context: CFC diploma project
 image: messle.png
 date: May 2011

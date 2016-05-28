@@ -2,8 +2,8 @@
 title: Battle for Atlantis
 language: Java
 os:
-  - icon: desktop
-  - icon: wifi
+  - icon: desktop-mac
+  - icon: router-wireless
 context: Semester project
 github: https://github.com/sebyx31/Battle-for-Atlantis
 image: bfa.webp
