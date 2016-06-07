@@ -32,7 +32,7 @@ Happy browsing!
         <a href="http://www.he-arc.ch/ingenierie" class="secondary-content"><i class="mdi mdi-launch"></i></a>
     </li>
     <li class="collection-item avatar">
-        <img src="images/cpln.webp" alt="CPLN" class="circle">
+        <img src="images/cpln.png" alt="CPLN" class="circle">
         <span class="title">CFC en informatique &amp; Maturité professionnelle technique</span>
         <p>Centre Professionnel du Littoral Neuchâtelois<br/>2008-2011</p>
         <a href="http://www.cpln.ch/" class="secondary-content"><i class="mdi mdi-launch"></i></a>
