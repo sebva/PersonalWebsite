@@ -22,11 +22,11 @@ weight: 1
                 <div class="col s12 l6 project-item">
                     <div class="card z-depth-1-half blue" style="margin-left: 10px; margin-right: 10px">
                         <div class="card-image waves-effect waves-block waves-light">
-                            <picture class="activator">
+                            <picture>
                                 {% if project.webp != null %}
                                 <source type="image/webp" srcset="project-images/{{ project.webp }}">
                                 {% endif %}
-                                <img src="project-images/{{ project.image }}">
+                                <img class="activator" src="project-images/{{ project.image }}">
                             </picture>
                         </div>
                         <div class="card-content white-text">
