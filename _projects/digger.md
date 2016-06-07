@@ -5,7 +5,8 @@ os:
   - icon: tablet-android
   - icon: android
 context: Bachelor project
-image: digger.webp
+image: digger.png
+webp: digger.webp
 date: Jul 2014
 order: 2014-07-10
 ---

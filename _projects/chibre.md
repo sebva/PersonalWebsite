@@ -6,7 +6,8 @@ os:
   - icon: windows
   - icon: android
 context: C# project
-image: chibre.webp
+image: chibre.png
+webp: chibre.webp
 github: https://github.com/sebyx31/Chibre-Server
 date: Apr 2014
 order: 2014-04-29

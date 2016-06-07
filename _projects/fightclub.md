@@ -1,7 +1,8 @@
 ---
 title: Fight Club
 language: Ruby on Rails
-image: fightclub.webp
+image: fightclub.jpg
+webp: fightclub.webp
 os:
   - icon: diamond
   - icon: server

@@ -4,7 +4,8 @@ language: Android/Kotlin
 os:
   - icon: android
 context: Contracted work
-image: climbingym.webp
+image: climbingym.jpg
+webp: climbingym.webp
 date: June 2016
 order: 2016-06-30
 ---

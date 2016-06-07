@@ -6,7 +6,8 @@ os:
   - icon: android
 context: Semester project
 github: https://github.com/sebyx31/ProFitMap
-image: pfm.webp
+image: pfm.png
+webp: pfm.webp
 date: Jan 2014
 order: 2014-01-23
 ---

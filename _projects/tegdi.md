@@ -5,7 +5,8 @@ os:
   - icon: desktop-mac
   - icon: database
 context: Web applications 1 project
-image: tegdi.webp
+image: tegdi.png
+webp: tegdi.webp
 date: Jun 2013
 order: 2013-06-28
 ---

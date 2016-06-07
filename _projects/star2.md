@@ -6,7 +6,8 @@ os:
   - icon: android
   - icon: raspberrypi
 context: Freshman's year project
-image: star2.webp
+image: star2.png
+webp: star2.webp
 github: https://github.com/projetp1/Frontend/
 date: Sep 2012
 order: 2012-09-05
