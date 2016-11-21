@@ -1,17 +1,4 @@
-(function($){
-    $(function(){
-
-        $('.button-collapse').sideNav();
-
-    });
-})(jQuery);
-var recapOk = function() {
-    $('#submit').removeAttr('disabled');
-};
 $(document).ready(function(){
-    $('#nav-large').pushpin({ top: 350 });
-    $('#nav-small').pushpin({ top: 0 });
-    
     $('#chat-button').on('click', function() {
         require(['converse'], function (converse) {
             converse.initialize({

@@ -1,0 +1,44 @@
+<div class="row">
+    <div class="col s12">
+        <div class="row" id="projects-grid">
+        {% assign projects = site.projects | sort: "order" %}
+        {% for project in projects reversed %}
+            <div class="col s12 l6 project-item">
+                <div class="card z-depth-1-half blue" style="margin-left: 10px; margin-right: 10px">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <picture>
+                            {% if project.webp != null %}
+                            <source type="image/webp" srcset="project-images/{{ project.webp }}">
+                            {% endif %}
+                            <img class="activator" src="project-images/{{ project.image }}">
+                        </picture>
+                    </div>
+                    <div class="card-content white-text">
+                        <div class="row">
+                            <div class="card-title col s8"><strong>{{ project.title }}</strong></div>
+                            <div class="right-align col s4">{{ project.language }}
+                                {% for os in project.os %}<i class="mdi mdi-18px mdi-{{ os.icon }}"></i>{% endfor %}<br>
+                                {{ project.context }}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title black-text waves-effect waves-teal">{{ project.title }}&nbsp;
+                            <i class="mdi mdi-close right"></i>
+                        </span>
+                        {{ project.content | markdownify }}
+                    </div>
+                    <div class="card-action blue darken-1">
+                        <a href="javascript:void(0);" class="activator"><i class="mdi mdi-arrow-expand-all"></i> Show details</a>
+                        {% if project.github != null %}
+                            <a href="{{ project.github }}"><i class="mdi mdi-github-box"></i> See on GitHub</a>
+                        {% endif %}
+                        <span class="white-text right">{{ project.date | date: "%B %Y" }}</span>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+        </div>
+    </div>
+</div>
+
