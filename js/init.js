@@ -23,6 +23,7 @@ $(document).ready(function(){
                 allow_chat_pending_contacts: true,
                 allow_contact_removal: false,
                 allow_contact_requests: false,
+                allow_muc: false,
                 show_controlbox_by_default: false,
             });
             $('#chat-button').remove();
