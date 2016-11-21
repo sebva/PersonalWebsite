@@ -11,31 +11,8 @@ var recapOk = function() {
 $(document).ready(function(){
     $('#nav-large').pushpin({ top: 350 });
     $('#nav-small').pushpin({ top: 0 });
-    var contact = $('#contact-form');
-    if(contact.length) {
-        contact.validate({
-            errorClass: 'invalid',
-            validClass: 'valid',
-            errorElement: 'span',
-            rules: {
-                name: {
-                    required: true
-                },
-                email: {
-                    required: true,
-                    email: true
-                },
-                subject: {
-                    required: true,
-                    maxlength: 140
-                },
-                message: {
-                    required: true,
-                    minlength: 20,
-                    maxlength: 2000
-                }
-            }
-        });
+    
+    $('#chat-button').on('click', function() {
         require(['converse'], function (converse) {
             converse.initialize({
                 authentication: 'anonymous',
@@ -44,14 +21,19 @@ $(document).ready(function(){
                 bosh_service_url: 'https://s2.vaucher.org:5281/http-bind',
                 websocket_url: 'wss:s2.vaucher.org:5281/xmpp-websocket',
                 allow_chat_pending_contacts: true,
-                auto_subscribe: true,
-                auto_join_on_invite: true,
-                i18n: locales.en,
+                allow_contact_removal: false,
+                allow_contact_requests: false,
                 show_controlbox_by_default: false,
-                auto_join_rooms: ['web@conference.vaucher.org']
+            });
+            $('#chat-button').remove();
+            converse.listen.once('connected', function (event) {
+                converse.contacts.add('seb@vaucher.org', 'Sébastien Vaucher');
+            });
+            converse.listen.on('rosterPush', function (event, items) {
+                converse.chats.open('seb@vaucher.org');
             });
         });
-    }
+    });
 });
 $(window).on("load", function() {
     $('#projects-grid').masonry({
