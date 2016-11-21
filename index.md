@@ -12,7 +12,7 @@ Hi there! My name is Sébastien Vaucher, I'm a software engineer from the region
 
 I hope that you will find what you are looking for on this website. Below is a summary of my education. A list of [projects](/projects.html) I realized is available on a dedicated page.
 
-Should you be unable to find something, you may contact me using the [contact form](/contact.html) of this site.
+Should you be unable to find something, you can instantly contact me using the chat button in the lower right. It will start an XMPP/Jabber chat with me.
 
 Happy browsing!
 
