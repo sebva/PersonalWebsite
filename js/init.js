@@ -1,5 +1,7 @@
 $(document).ready(function(){
-    $('#chat-button').on('click', function() {
+    $('a.activator').on('click', function(e) { e.preventDefault(); });
+    $('#chat-button').on('click', function(e) {
+        e.preventDefault();
         require(['converse'], function (converse) {
             converse.initialize({
                 authentication: 'anonymous',
