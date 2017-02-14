@@ -8,9 +8,9 @@ weight: 0
 
 ## Welcome!
 
-Hi there! My name is Sébastien Vaucher, I'm a software engineer from the region of Neuchâtel, Switzerland. If you're here, it's probably because you want to know more about me. 
+Hi there! My name is Sébastien Vaucher, I'm currently pursuing a PhD degree at the University of Neuchâtel, Switzerland.
 
-I hope that you will find what you are looking for on this website. Below is a summary of my education amd a list of projects I realized.
+If you're here, it's probably because you want to know more about me. I hope that you will find what you are looking for on this website. Below is a summary of my education amd a list of projects I realized.
 
 Should you be unable to find something, you can instantly contact me using the chat button in the lower right. It will start an XMPP/Jabber chat with me.
 
@@ -19,6 +19,12 @@ Happy browsing!
 ### Education
 
 <ul class="collection">
+    <li class="collection-item avatar">
+        <img src="images/unine.png" alt="UniNE" class="circle">
+        <span class="title">PhD in Computer Science</span>
+        <p>Université de Neuchâtel<br/>2017-</p>
+        <a href="http://www.unine.ch/iiun" class="secondary-content"><i class="mdi mdi-launch"></i></a>
+    </li>
     <li class="collection-item avatar">
         <img src="images/unine.png" alt="UniNE" class="circle">
         <span class="title">Swiss Joint Master in Computer Science</span>
