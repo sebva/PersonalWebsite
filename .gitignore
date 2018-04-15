@@ -51,6 +51,7 @@ crashlytics-build.properties
 
 ### Jekyll ###
 _site/
+.jekyll-metadata
 .sass-cache/
 
 

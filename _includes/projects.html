@@ -4,9 +4,9 @@
         {% assign projects = site.projects | sort: "order" %}
         {% for project in projects reversed %}
             <div class="col s12 l6 project-item">
-                <div class="card z-depth-1-half blue" style="margin-left: 10px; margin-right: 10px">
+                <div class="card sticky-action z-depth-1-half blue" style="margin-left: 10px; margin-right: 10px">
                     <div class="card-image waves-effect waves-block waves-light">
-                        <picture>
+                        <picture class="activator">
                             {% if project.webp != null %}
                             <source type="image/webp" srcset="project-images/{{ project.webp }}">
                             {% endif %}
@@ -22,18 +22,18 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card-reveal">
-                        <span class="card-title black-text waves-effect waves-teal" data-project="{{ project.title | slugify }}">{{ project.title }}&nbsp;
-                            <i class="mdi mdi-close right"></i>
-                        </span>
-                        {{ project.content | markdownify }}
-                    </div>
                     <div class="card-action blue darken-1">
                         <a href="#" class="activator" data-project="{{ project.title | slugify }}"><i class="mdi mdi-arrow-expand-all"></i> Show details</a>
                         {% if project.github != null %}
                             <a href="{{ project.github }}"><i class="mdi mdi-github-box"></i> See on GitHub</a>
                         {% endif %}
                         <span class="white-text right">{{ project.date | date: "%B %Y" }}</span>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title black-text waves-effect waves-teal" data-project="{{ project.title | slugify }}">{{ project.title }}&nbsp;
+                            <i class="mdi mdi-close right"></i>
+                        </span>
+                        {{ project.content | markdownify }}
                     </div>
                 </div>
             </div>

@@ -2,10 +2,9 @@
 ---
 @charset "UTF-8";
 
-// Mixins
-@import "prefixer";
-@import "mixins";
-@import "color";
+// Color
+@import "color-variables";
+@import "color-classes";
 
 // Variables;
 @import "variables";
@@ -15,10 +14,12 @@
 
 // components
 @import "global";
+@import "badges";
+@import "icons-material-design";
 @import "grid";
 @import "navbar";
-@import "roboto";
 @import "typography";
+@import "transitions";
 @import "cards";
 //@import "toast";
 //@import "tabs";
@@ -30,12 +31,13 @@
 //@import "collapsible";
 //@import "chips";
 //@import "materialbox";
-@import "forms/_forms";
+//@import "forms/forms";
 //@import "table_of_contents";
-//@import "sideNav";
-@import "preloader";
+@import "sidenav";
+//@import "preloader";
 //@import "slider";
 //@import "carousel";
-//@import "date_picker/default.scss";
-//@import "date_picker/default.date.scss";
-//@import "date_picker/default.time.scss";
+//@import "tapTarget";
+//@import "pulse";
+//@import "datepicker";
+//@import "timepicker";
