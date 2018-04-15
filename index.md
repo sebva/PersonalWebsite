@@ -41,6 +41,10 @@ Happy browsing!
     </a>
 </ul>
 
+### Scientific publications
+
+{% include papers.html %}
+
 ### Projects
 
 Below is a list of some projects I realized since 2010.

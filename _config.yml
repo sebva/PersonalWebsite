@@ -10,6 +10,8 @@ timezone: Europe/Zurich
 collections:
   projects:
     output: false
+  papers:
+    output: false
 
 defaults:
   - 

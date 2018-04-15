@@ -1,4 +1,5 @@
 $(document).ready(function(){
+    $('.collapsible').collapsible();
     $('a.activator').on('click', function(e) { e.preventDefault(); });
     $('#chat-button').on('click', function(e) {
         e.preventDefault();

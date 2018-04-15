@@ -1,0 +1,32 @@
+<ul class="collapsible popout">
+{% assign papers = site.papers | sort: "date" %}
+{% for paper in papers reversed %}
+    <li>
+        <div class="collapsible-header hoverable">
+            <div><strong>{{ paper.title }}</strong><br />{{ paper.authors }}</div>
+            <div class="right">
+                {{ paper.conference_short }}
+                {% if paper.date > site.time %}
+                <br/><span class="new badge">To&nbsp;appear</span>
+                {% endif %}
+            </div>
+        </div>
+        <div class="collapsible-body">
+            <h5>Abstract</h5>
+            {{ paper.content | markdownify }}
+            <p><strong>Presented in:</strong> <a href="{{ paper.conference_website }}">{{ paper.conference_long }}</a></p>
+            <div>
+                {% if paper.pdf != null %}
+                <a href="papers/{{ paper.pdf }}" class="waves-effect waves-light btn"><i class="mdi mdi-file-pdf left"></i>Download PDF</a>
+                {% endif %}
+                {% if paper.doi != null %}
+                <a href="https://doi.org/{{ paper.doi }}" class="waves-effect waves-light btn"><i class="mdi mdi-open-in-new left"></i>Resolve DOI</a>
+                {% endif %}
+                {% if paper.source != null %}
+                <a href="{{ paper.source }}" class="waves-effect waves-light btn"><i class="mdi mdi-code-tags left"></i>Related source code</a>
+                {% endif %}
+            </div>
+        </div>
+    </li>
+{% endfor %}
+</ul>
