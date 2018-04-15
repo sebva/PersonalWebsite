@@ -8,9 +8,12 @@ weight: 0
 
 ## Welcome!
 
-Hi there! My name is Sébastien Vaucher, I'm currently pursuing a PhD degree at the University of Neuchâtel, Switzerland.
+Hi there! My name is Sébastien Vaucher, I'm currently pursuing a PhD degree at the Institute of Computer Science of the University of Neuchâtel, Switzerland.
+If you're here, it's probably because you want to know more about me.
+I hope that you will find what you are looking for on this website.
 
-If you're here, it's probably because you want to know more about me. I hope that you will find what you are looking for on this website. Below is a summary of my education amd a list of projects I realized.
+Below, you will find an up-to-date list of the scientific articles that I (co-)authored.
+Underneath follows a list of less formal projects that I realized.
 
 Should you be unable to find something, you can instantly contact me using the chat button in the lower right. It will start an XMPP/Jabber chat with me.
 
