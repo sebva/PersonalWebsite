@@ -10,7 +10,7 @@
                             {% if project.webp != null %}
                             <source type="image/webp" srcset="project-images/{{ project.webp }}">
                             {% endif %}
-                            <img class="activator" src="project-images/{{ project.image }}" data-project="{{ project.title | slugify }}">
+                            <img class="activator" src="project-images/{{ project.image }}" data-project="{{ project.title | slugify }}" alt="{{ project.title }}">
                         </picture>
                     </div>
                     <div class="card-content white-text">

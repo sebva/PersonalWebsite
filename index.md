@@ -21,7 +21,7 @@ Happy browsing!
 
 ### Education
 
-<ul class="collection">
+<div class="collection">
     <a href="https://www.unine.ch/iiun" class="collection-item avatar">
         <img src="images/unine.png" alt="UniNE" class="circle">
         <span class="title">PhD in Computer Science</span>
@@ -30,7 +30,7 @@ Happy browsing!
     <a href="http://mcs.unibnf.ch/" class="collection-item avatar">
         <img src="images/unine.png" alt="UniNE" class="circle">
         <span class="title">Swiss Joint Master in Computer Science</span>
-        <p>Université de Neuchâtel<br/>2014-2016</p>
+        <p>Université de Neuchâtel, Universität Bern, Université de Fribourg<br/>2014-2016</p>
     </a>
     <a href="https://www.he-arc.ch/ingenierie" class="collection-item avatar">
         <img src="images/arc.png" alt="Arc" class="circle">
@@ -42,7 +42,7 @@ Happy browsing!
         <span class="title">CFC en informatique &amp; Maturité professionnelle technique</span>
         <p>Centre Professionnel du Littoral Neuchâtelois<br/>2008-2011</p>
     </a>
-</ul>
+</div>
 
 ### Scientific publications
 
