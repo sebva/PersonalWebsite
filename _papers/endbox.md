@@ -4,6 +4,7 @@ authors: David&nbsp;Goltzsche, Signe&nbsp;Rüsch, Manuel&nbsp;Nieke, Sébastien&
 conference_short: DSN&nbsp;2018
 conference_long: 48th IEEE/IFIP International Conference on Dependable Systems and Networks, Luxembourg City, 2018
 conference_website: https://dsn2018.uni.lu/
+pdf: endbox.pdf
 date: 2018-06-25
 ---
 Many organisations enhance the performance, security, and functionality of their managed networks by deploying <em>middleboxes</em> centrally as part of their core network.
