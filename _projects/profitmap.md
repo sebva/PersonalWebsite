@@ -5,7 +5,7 @@ os:
   - icon: dropbox
   - icon: android
 context: Semester project
-github: https://github.com/sebyx31/ProFitMap
+github: https://github.com/sebva/ProFitMap
 image: pfm.png
 webp: pfm.webp
 date: Jan 2014

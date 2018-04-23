@@ -5,7 +5,7 @@ conference_short: NETYS 2018
 conference_long: The 6th Edition of the International Conference on NETworked sYStems, Essaouira, Morocco, 2018
 conference_website: http://netys.net/
 pdf: stress-sgx.pdf
-source: https://github.com/sebyx31/stress-sgx
+source: https://github.com/sebva/stress-sgx
 date: 2018-05-09
 ---
 The latest generation of Intel processors supports Software Guard Extensions (SGX), a set of instructions that implements a Trusted Execution Environment (TEE) right inside the CPU, by means of so-called enclaves.

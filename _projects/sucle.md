@@ -4,7 +4,7 @@ language: Android/Java
 os:
   - icon: android
 context: Android project
-github: https://github.com/sebyx31/sucle
+github: https://github.com/sebva/sucle
 image: sucle.png
 date: Jan 2014
 order: 2014-01-20

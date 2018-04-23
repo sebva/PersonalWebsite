@@ -7,7 +7,7 @@ os:
 context: Web applications 2 project &#35;2
 image: arcwork.png
 webp: arcwork.webp
-github: https://github.com/sebyx31/ArcWork
+github: https://github.com/sebva/ArcWork
 date: Apr 2014
 order: 2014-04-24
 ---

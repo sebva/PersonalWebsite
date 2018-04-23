@@ -4,7 +4,7 @@ language: PHP
 os:
   - icon: language-php
 context: Personal project
-github: https://github.com/sebyx31/sebsews
+github: https://github.com/sebva/sebsews
 image: sebsews.png
 date: Mar 2010
 order: 2010-03-17

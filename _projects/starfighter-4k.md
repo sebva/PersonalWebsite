@@ -3,7 +3,7 @@ title: Starfighter 4K
 language: C++
 image: s4k.jpg
 webp: s4k.webp
-github: https://github.com/sebyx31/Starfighter4K
+github: https://github.com/sebva/Starfighter4K
 os:
   - icon: gamepad-variant
   - icon: projector

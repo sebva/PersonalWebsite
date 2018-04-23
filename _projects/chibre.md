@@ -8,7 +8,7 @@ os:
 context: C# project
 image: chibre.png
 webp: chibre.webp
-github: https://github.com/sebyx31/Chibre-Server
+github: https://github.com/sebva/Chibre-Server
 date: Apr 2014
 order: 2014-04-29
 ---

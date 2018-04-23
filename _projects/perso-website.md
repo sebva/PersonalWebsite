@@ -5,7 +5,7 @@ os:
   - icon: language-html5
 context: Personal project
 image: perso-website.png
-github: https://github.com/sebyx31/sebyx31.github.io
+github: https://github.com/sebva/personalwebsite
 date: Jun 2015
 order: 2015-06-16
 ---

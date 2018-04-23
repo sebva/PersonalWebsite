@@ -5,7 +5,7 @@ os:
   - icon: desktop-mac
   - icon: router-wireless
 context: Semester project
-github: https://github.com/sebyx31/Battle-for-Atlantis
+github: https://github.com/sebva/Battle-for-Atlantis
 image: bfa.png
 webp: bfa.webp
 date: Jun 2013

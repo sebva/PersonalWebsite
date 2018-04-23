@@ -6,7 +6,7 @@ os:
 context: E-Government frameworks
 image: erepair.jpg
 webp: erepair.webp
-github: https://github.com/sebyx31/AdminPanel
+github: https://github.com/sebva/AdminPanel
 date: May 2015
 order: 2015-05-22
 ---
