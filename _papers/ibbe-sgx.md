@@ -5,6 +5,7 @@ conference_short: DSN&nbsp;2018
 conference_long: 48th IEEE/IFIP International Conference on Dependable Systems and Networks, Luxembourg City, 2018
 conference_website: https://dsn2018.uni.lu/
 pdf: ibbe-sgx.pdf
+source: https://github.com/rafaelppires/trusted-sharing
 date: 2018-06-25
 ---
 While many cloud storage systems allow users to protect their data by making use of encryption, only few support collaborative editing on that data.

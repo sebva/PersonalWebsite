@@ -5,6 +5,8 @@ conference_short: ICDCS 2018
 conference_long: 38th IEEE International Conference on Distributed Computing Systems, Vienna, Austria, 2018
 conference_website: http://icdcs2018.ocg.at/
 date: 2018-07-02
+pdf: sgx-orchestrator.pdf
+source: https://github.com/sebva/sgx-orchestrator
 ---
 Containers are becoming the de facto standard to package and deploy applications and micro-services in the cloud.
 Several cloud providers (Amazon, Google, Microsoft) begin to offer native support on their infrastructure by integrating container orchestration tools within their cloud offering.
