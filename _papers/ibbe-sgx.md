@@ -7,6 +7,7 @@ conference_website: https://dsn2018.uni.lu/
 pdf: ibbe-sgx.pdf
 source: https://github.com/rafaelppires/trusted-sharing
 date: 2018-06-26
+doi: 10.1109/DSN.2018.00032
 ---
 While many cloud storage systems allow users to protect their data by making use of encryption, only few support collaborative editing on that data.
 A major challenge for enabling such collaboration is the need to enforce cryptographic access control policies in a secure and efficient manner.

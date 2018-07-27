@@ -7,6 +7,7 @@ conference_website: http://icdcs2018.ocg.at/
 date: 2018-07-02
 pdf: sgx-orchestrator.pdf
 source: https://github.com/sebva/sgx-orchestrator
+doi: 10.1109/ICDCS.2018.00076
 ---
 Containers are becoming the de facto standard to package and deploy applications and micro-services in the cloud.
 Several cloud providers (Amazon, Google, Microsoft) begin to offer native support on their infrastructure by integrating container orchestration tools within their cloud offering.
