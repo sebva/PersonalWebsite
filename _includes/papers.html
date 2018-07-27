@@ -16,7 +16,9 @@
             {{ paper.content | markdownify }}
             <p><strong>Presented in:</strong> <a href="{{ paper.conference_website }}">{{ paper.conference_long }}</a></p>
             <div>
-                {% if paper.pdf != null %}
+                {% if paper.arxiv != null %}
+                <a href="https://arxiv.org/pdf/{{ paper.arxiv }}.pdf" class="waves-effect waves-light btn"><i class="mdi mdi-file-pdf left"></i>Download PDF</a>
+                {% elsif paper.pdf != null %}
                 <a href="papers/{{ paper.pdf }}" class="waves-effect waves-light btn"><i class="mdi mdi-file-pdf left"></i>Download PDF</a>
                 {% endif %}
                 {% if paper.doi != null %}

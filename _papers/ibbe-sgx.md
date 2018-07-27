@@ -5,6 +5,7 @@ conference_short: DSN&nbsp;2018
 conference_long: 48th IEEE/IFIP International Conference on Dependable Systems and Networks, Luxembourg City, 2018
 conference_website: https://dsn2018.uni.lu/
 pdf: ibbe-sgx.pdf
+arxiv: 1805.01563
 source: https://github.com/rafaelppires/trusted-sharing
 date: 2018-06-26
 doi: 10.1109/DSN.2018.00032

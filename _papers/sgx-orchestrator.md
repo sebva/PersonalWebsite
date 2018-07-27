@@ -6,6 +6,7 @@ conference_long: 38th IEEE International Conference on Distributed Computing Sys
 conference_website: http://icdcs2018.ocg.at/
 date: 2018-07-02
 pdf: sgx-orchestrator.pdf
+arxiv: 1805.05847
 source: https://github.com/sebva/sgx-orchestrator
 doi: 10.1109/ICDCS.2018.00076
 ---
