@@ -15,6 +15,7 @@ $(document).ready(function(){
                 allow_contact_requests: false,
                 allow_muc: false,
                 show_controlbox_by_default: false,
+                allow_otr: false,
             });
             $('#chat-button').remove();
             converse.listen.once('connected', function (event) {
