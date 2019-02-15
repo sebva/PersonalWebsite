@@ -5,6 +5,7 @@ conference_short: NETYS 2018
 conference_long: The 6th Edition of the International Conference on NETworked sYStems, Essaouira, Morocco, 2018
 conference_website: http://netys.net/
 pdf: stress-sgx.pdf
+doi: 10.1007/978-3-030-05529-5_24
 source: https://github.com/sebva/stress-sgx
 date: 2018-05-09
 ---
