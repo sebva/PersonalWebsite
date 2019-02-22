@@ -21,6 +21,8 @@ Happy browsing!
 
 ### Scientific publications
 
+In principle, publications are also indexed by [Google Scholar](https://scholar.google.fr/citations?user=K1yM-cYAAAAJ) and [DBLP](https://dblp.org/pers/hd/v/Vaucher:S=eacute=bastien).
+
 {% include papers.html %}
 
 ### Education
