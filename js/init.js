@@ -1,9 +1,12 @@
-$(document).ready(function(){
-    $('.collapsible').collapsible();
-    $('a.activator').on('click', function(e) { e.preventDefault(); });
+document.addEventListener('DOMContentLoaded', function() {
+    var collapsibles = document.querySelectorAll('.collapsible');
+    var instances = M.Collapsible.init(collapsibles, {});
+
+    document.querySelector('.collapsible').addEventListener('click', function(e) { e.preventDefault(); });
 });
-$(window).on("load", function() {
-    $('#projects-grid').masonry({
+
+window.addEventListener('load', function() {
+    new Masonry(document.getElementById('projects-grid'), {
         columnWidth: '.project-item',
         itemSelector: '.project-item',
     });
