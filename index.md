@@ -17,6 +17,10 @@ Underneath follows a list of less formal projects that I realized.
 
 Happy browsing!
 
+### Scientific publications
+
+{% include papers.html %}
+
 ### Education
 
 <div class="collection">
@@ -41,10 +45,6 @@ Happy browsing!
         <p>Centre Professionnel du Littoral Neuchâtelois<br/>2008-2011</p>
     </a>
 </div>
-
-### Scientific publications
-
-{% include papers.html %}
 
 ### Projects
 
