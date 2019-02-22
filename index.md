@@ -15,8 +15,6 @@ I hope that you will find what you are looking for on this website.
 Below, you will find an up-to-date list of the scientific articles that I (co-)authored.
 Underneath follows a list of less formal projects that I realized.
 
-Should you be unable to find something, you can instantly contact me using the chat button in the lower right. It will start an XMPP/Jabber chat with me.
-
 Happy browsing!
 
 ### Education
