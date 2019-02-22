@@ -15,6 +15,8 @@ I hope that you will find what you are looking for on this website.
 Below, you will find an up-to-date list of the scientific articles that I (co-)authored.
 Underneath follows a list of less formal projects that I realized.
 
+Finally, you will find a contact form at the bottom of the page.
+
 Happy browsing!
 
 ### Scientific publications
@@ -54,3 +56,4 @@ You can read a summary for any project by using the Show details action. Some pr
 
 {% include projects.html %}
 
+{% include contact.html %}
