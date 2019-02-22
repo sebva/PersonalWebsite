@@ -1,18 +1,17 @@
 ---
-title: ClimbinGym for Android
+title: Ascendo for Android
 language: Android/Kotlin
 os:
   - icon: android
 context: Contracted work
-image: climbingym.jpg
-webp: climbingym.webp
+image: ascendo.png
 date: June 2016
 order: 2016-06-30
 ---
 
-[ClimbinGym](https://www.climbingym.ch/) is a management tool for climbing gyms. It is a useful tool for both gym staff and climbers. A web application is used to manage the different routes built in the gym.
+[Ascendo](https://ascendoclimbing.com/) _(ex-ClimbinGym)_ is a management tool for climbing gyms. It is a useful tool for both gym staff and climbers. A web application is used to manage the different routes built in the gym.
 
-My work was to write a brand new Android application usable by climbers and staff. Climbers can follow their progression of the different routes provided by the gym. Staff members can use the application to manage the routes comfortably from their smartphones.
+My work is to develop and maintain a brand new Android application usable by climbers and staff. Climbers can follow their progression of the different routes provided by the gym. Staff members can use the application to manage the routes comfortably from their smartphones.
 
 The list of features includes:
 
@@ -35,4 +34,3 @@ Interested by this application? You can download it freely from the Google Play 
 
 [![Android App on Google Play](/images/gplay-en.png)](https://play.google.com/store/apps/details?id=com.orstat.climbingym)
 
-![Welcome to ClimbinGym](/images/climbingym/1.png)![Login page](/images/climbingym/2.png)![Material navigation drawer](/images/climbingym/3.png)![List of routes](/images/climbingym/4.png)![Route details](/images/climbingym/5.png)![Route personal details](/images/climbingym/6.png)
