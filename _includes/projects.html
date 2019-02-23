@@ -4,7 +4,7 @@
         {% assign projects = site.projects | sort: "order" %}
         {% for project in projects reversed %}
             <div class="col s12 l6 project-item">
-                <div class="card sticky-action z-depth-1-half blue">
+                <div class="card z-depth-1-half blue">
                     <div class="card-image waves-effect waves-block waves-light">
                         <picture class="activator">
                             {% if project.webp != null %}
@@ -29,11 +29,14 @@
                         {% endif %}
                         <span class="white-text right">{{ project.date | date: "%B %Y" }}</span>
                     </div>
-                    <div class="card-reveal">
+                    <div class="card-reveal" style="padding-bottom: 20px">
                         <span class="card-title black-text waves-effect waves-teal" data-project="{{ project.title | slugify }}">{{ project.title }}&nbsp;
                             <i class="mdi mdi-close right"></i>
                         </span>
                         {{ project.content | markdownify }}
+                        {% if project.github != null %}
+                            <p><a class="waves-effect btn-flat" href="{{ project.github }}"><i class="mdi mdi-github-circle"></i> See on GitHub</a></p>
+                        {% endif %}
                     </div>
                 </div>
             </div>
