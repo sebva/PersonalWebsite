@@ -3,6 +3,9 @@ document.addEventListener('DOMContentLoaded', function() {
     var instances = M.Collapsible.init(collapsibles, {});
 
     document.querySelector('.collapsible').addEventListener('click', function(e) { e.preventDefault(); });
+    document.querySelectorAll('a.activator').forEach(function(element) {
+        element.addEventListener('click', function(e) { e.preventDefault(); });
+    });
 });
 
 window.addEventListener('load', function() {
