@@ -7,6 +7,7 @@ conference_website: http://www.lasid.ufba.br/srds2018/
 source: https://github.com/ChrisG55/streaming
 date: 2018-10-02
 doi: 10.1109/SRDS.2018.00024
+arxiv: 1903.04203
 ---
 The deployment of large-scale distributed systems, *e.g.*, publish-subscribe platforms, that operate over sensitive data using the infrastructure of public cloud providers, is nowadays heavily hindered by the surging lack of trust toward the cloud operators.
 Although purely software-based solutions exist to protect the confidentiality of data and the processing itself, such as homomorphic encryption schemes, their performance is far from being practical under real-world workloads.
