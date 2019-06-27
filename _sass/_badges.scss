@@ -18,9 +18,11 @@ span.badge {
     background-color: $badge-bg-color;
     border-radius: 2px;
   }
+  /* Useless to me
   &.new:after {
     content: " new";
   }
+  */
 
   &[data-badge-caption]::after {
     content: " " attr(data-badge-caption);
