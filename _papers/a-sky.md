@@ -5,6 +5,8 @@ conference_short: SRDS 2019
 conference_long: 38th IEEE International Symposium on Reliable Distributed Systems, Lyon, France, 2019
 conference_website: https://srds2019.projet.liris.cnrs.fr/
 date: 2019-10-01
+arxiv: 1907.06466
+source: https://github.com/rafaelppires/anonym-sharing
 ---
 Using public cloud services for storing and sharing confidential data requires end users to cryptographically protect both the data and the access to the data.
 In some cases, the identity of end users needs to remain confidential against the cloud provider and fellow users accessing the data.
