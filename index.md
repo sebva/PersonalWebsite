@@ -33,7 +33,7 @@ In principle, publications are also indexed by [Google Scholar](https://scholar.
         <span class="title">PhD in Computer Science</span>
         <p>Université de Neuchâtel<br/>2017-</p>
     </a>
-    <a href="http://mcs.unibnf.ch/" class="collection-item avatar">
+    <a href="https://mcs.unibnf.ch/" class="collection-item avatar">
         <img src="images/unine.png" alt="UniNE" class="circle">
         <span class="title">Swiss Joint Master in Computer Science</span>
         <p>Université de Neuchâtel, Universität Bern, Université de Fribourg<br/>2014-2016</p>
@@ -43,7 +43,7 @@ In principle, publications are also indexed by [Google Scholar](https://scholar.
         <span class="title">Bachelor of Science HES-SO in Computer Science</span>
         <p>Haute École Arc Ingénierie<br/>2011-2014</p>
     </a>
-    <a href="http://www.cpln.ch/" class="collection-item avatar">
+    <a href="https://www.cpln.ch/" class="collection-item avatar">
         <img src="images/cpln.png" alt="CPLN" class="circle">
         <span class="title">CFC en informatique &amp; Maturité professionnelle technique</span>
         <p>Centre Professionnel du Littoral Neuchâtelois<br/>2008-2011</p>

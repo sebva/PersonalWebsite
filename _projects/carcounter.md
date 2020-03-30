@@ -14,4 +14,4 @@ CarCounter is an application capable of counting how many cars pass in front of 
 
 The application is developed using the CUDA GPGPU technology, enabling massively parallel computations on graphics cards.
 
-The project was developed in collaboration with [Jason Racine](http://www.jason-racine.com/).
+The project was developed in collaboration with Jason Racine.

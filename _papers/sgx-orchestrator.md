@@ -3,7 +3,7 @@ title: SGX-Aware Container Orchestration for Heterogeneous Clusters
 authors: Sébastien&nbsp;Vaucher, Rafael&nbsp;Pires, Pascal&nbsp;Felber, Marcelo&nbsp;Pasin, Valerio&nbsp;Schiavoni, Christof&nbsp;Fetzer
 conference_short: ICDCS 2018
 conference_long: 38th IEEE International Conference on Distributed Computing Systems, Vienna, Austria, 2018
-conference_website: http://icdcs2018.ocg.at/
+conference_website: https://icdcs2018.ocg.at/
 date: 2018-07-02
 pdf: sgx-orchestrator.pdf
 arxiv: 1805.05847
