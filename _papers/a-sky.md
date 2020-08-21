@@ -7,6 +7,7 @@ conference_website: https://srds2019.projet.liris.cnrs.fr/
 date: 2019-10-01
 arxiv: 1907.06466
 source: https://github.com/rafaelppires/anonym-sharing
+doi: 10.1109/SRDS47363.2019.00013
 ---
 Using public cloud services for storing and sharing confidential data requires end users to cryptographically protect both the data and the access to the data.
 In some cases, the identity of end users needs to remain confidential against the cloud provider and fellow users accessing the data.

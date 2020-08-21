@@ -6,6 +6,7 @@ conference_long: 50th IEEE/IFIP International Conference on Dependable Systems a
 conference_website: https://dsn2020.webs.upv.es/
 date: 2020-06-29
 arxiv: 2003.14099
+doi: 10.1109/DSN48063.2020.00063
 ---
 Trust is arguably the most important challenge for critical services both deployed as well as accessed remotely over the network.
 These systems are exposed to a wide diversity of threats, ranging from bugs to exploits, active attacks, rogue operators, or simply careless administrators.
