@@ -6,11 +6,3 @@ document.addEventListener('DOMContentLoaded', function() {
         element.addEventListener('click', function(e) { e.preventDefault(); });
     });
 });
-
-window.addEventListener('load', function() {
-    new Masonry(document.getElementById('projects-grid'), {
-        columnWidth: '.project-item',
-        itemSelector: '.project-item',
-    });
-})
-
