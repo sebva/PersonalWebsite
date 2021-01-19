@@ -14,7 +14,7 @@ I hope that you will find what you are looking for on this website.
 
 Below, you will find an up-to-date list of the scientific articles that I (co-)authored.
 
-Finally, you will find a contact form at the bottom of the page.
+Finally, you will find a [contact form](#contact-form) at the bottom of the page.
 
 Happy browsing!
 
