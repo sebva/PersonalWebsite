@@ -24,6 +24,16 @@ In principle, publications are also indexed by [Google Scholar](https://scholar.
 
 {% include papers.html %}
 
+### Work experience
+
+<div class="collection">
+    <a href="https://www.cisco.com/" class="collection-item avatar">
+        <img src="images/cisco.svg" alt="Cisco" class="circle">
+        <span class="title">Software engineer (Intern)</span>
+        <p>Cisco Systems Switzerland<br/>Sept.-Dec.&nbsp;2020</p>
+    </a>
+</div>
+
 ### Education
 
 <div class="collection">
