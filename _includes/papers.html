@@ -19,9 +19,9 @@
             {% endif %}
             <div>
                 {% if paper.arxiv != null %}
-                <a href="https://arxiv.org/pdf/{{ paper.arxiv }}.pdf" class="waves-effect waves-light btn"><i class="mdi mdi-file-pdf left"></i>Download PDF</a>
+                <a href="https://arxiv.org/pdf/{{ paper.arxiv }}.pdf" class="waves-effect waves-light btn"><i class="mdi mdi-book-open-variant left"></i>Download PDF</a>
                 {% elsif paper.pdf != null %}
-                <a href="papers/{{ paper.pdf }}" class="waves-effect waves-light btn"><i class="mdi mdi-file-pdf left"></i>Download PDF</a>
+                <a href="papers/{{ paper.pdf }}" class="waves-effect waves-light btn"><i class="mdi mdi-book-open-variant left"></i>Download PDF</a>
                 {% endif %}
                 {% if paper.doi != null %}
                 <a href="https://doi.org/{{ paper.doi }}" class="waves-effect waves-light btn"><i class="mdi mdi-open-in-new left"></i>Resolve DOI</a>
