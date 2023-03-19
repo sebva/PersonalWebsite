@@ -14,7 +14,9 @@
         <div class="collapsible-body">
             <h5>Abstract</h5>
             {{ paper.content | markdownify }}
+            {% if paper.conference_long != null %}
             <p><strong>Presented in:</strong> <a href="{{ paper.conference_website }}">{{ paper.conference_long }}</a></p>
+            {% endif %}
             <div>
                 {% if paper.arxiv != null %}
                 <a href="https://arxiv.org/pdf/{{ paper.arxiv }}.pdf" class="waves-effect waves-light btn"><i class="mdi mdi-file-pdf left"></i>Download PDF</a>
