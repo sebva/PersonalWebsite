@@ -3,6 +3,7 @@ title: "Exploring the potential of modern hardware-assisted security and network
 authors: Sébastien&nbsp;Vaucher
 conference_short: "Ph.D. Thesis"
 pdf: Thesis-Sebastien-Vaucher.pdf
+doi: 10.35662/UNINE-THESIS-2998
 date: 2023-01-30
 ---
 Companies progressively migrate their computing workloads to the cloud
